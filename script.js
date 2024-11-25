@@ -7,7 +7,7 @@ function addNewTask() {
   const taskText = inputNewTask.value;
   if (taskText !== '') {
     const newTask = document.createElement('li');
-    newTask.textContent =taskText;
+    newTask.textContent = taskText;
     const btnOk = document.createElement('button');
     btnOk.textContent = 'Ok';
     newTask.appendChild(btnOk);
